@@ -4,9 +4,9 @@ const Services = () => {
   const data = [
     {
       src: "/whatwedo/gas-oil.jpg",
-      title: "Gas Oil",
+      title: "Gasoil (10 PPM, MGO,5000 PPM)",
       content:
-        "Gas oil, also known as diesel fuel or diesel oil,throughout these years albaderdiesel has a reputation for providing the best quality gas oil as per customer demand.",
+        "Premium-grade diesel fuel suitable for industrial, marine, and automotive applications. We offer multiple specifications to meet different operational needs.",
     },
     {
       src: "/whatwedo/export.jpg",

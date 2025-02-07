@@ -3,45 +3,21 @@ import Image from "next/image";
 const Products = () => {
   const product = [
     {
-      src: "/products/crude-oil.jpg",
-      title: "Crude Oil",
+      src: "/products/gasoil.png",
+      title: "Gas Oil",
     },
     {
-      src: "/products/base-oil.jpg",
-      title: "Base Oil",
+      src: "/products/gasoline.png",
+      title: "Gasoline",
     },
     {
-      src: "/products/ultra-low-sulphur.jpg",
-      title: "Gas Oil - Ultra Low Sulphur",
+      src: "/products/bunker_fuel.png",
+      title: "Bunker fuel",
     },
     {
-      src: "/products/gas-oil-low-sulphur.jpg",
-      title: "Gas Oil - Low Sulphur",
-    },
-    {
-      src: "/products/gas-oil-high-sulphur.jpg",
-      title: "Gas Oil - High Sulphur",
-    },
-    {
-      src: "/products/kerosine.jpg",
-      title: "Kerosine",
-    },
-    {
-      src: "/products/furnace-oil.jpg",
-      title: "Furnace Oil",
-    },
-    {
-      src: "/products/fuel-oil.jpg",
-      title: "Fuel Oil",
-    },
-    {
-      src: "/products/rental-tanker.jpg",
-      title: "Rental Tanker",
-    },
-    {
-      src: "/products/storage-tank.jpg",
-      title: "Storage Tank",
-    },
+      src: "/products/kerosene.png",
+      title: "Kerosene",
+    }
   ];
   return (
     <section>
