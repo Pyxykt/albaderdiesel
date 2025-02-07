@@ -5,21 +5,21 @@ const page = () => {
     {
       src: "/about/collaboration.jpg",
       src2: "/about/collaboration.jpg",
-      title: "Core Values",
+      title: "Our Mission",
       content:
-        "Accountability - We take responsibility for meeting corporate objectives and our customers' needs. We are accountable to ourselves and our customers, and we are committed to continuous improvement.\n\nIntegrity- We pride ourselves on our ethical standards when conducting our business, and we act with integrity and abide by all the rules, regulations and standards that have been put in place for and by our industry.\n\nExcellence- We drive for the best results and are agile when addressing new challenges. We set challenging goals, and foster creativity and innovation in meeting our customers' needs. We believe that excellence is not a destination but a journey that we are committed to.\n\nSafety- The safety and wellbeing of our workforce is our utmost priority, involving everyone at ATC. We operate the highest safety standards and reward outstanding safety achievements. Cause no accidents, no harm to people and no damage to the environment.",
+        "Our Mission is truly aligned with our vision. We are committed to providing our clients with top-of-the-line customer services at par with the best industry standards and practices. Backed by high moral and integrity values, we fulfil all our commitments without any compromises on quality from the beginning of the project to the end.",
     },
     {
       src: "/about/fuel-refinery.jpg",
-      title: "OUR BUSINESS PRINCIPLES",
+      title: "Our Vision",
       content:
-        "As a global energy trading company, we operate in a challenging and dynamic world. We set high standards for performance and ethical behaviour, and we are judged by how we act and live up to our core values of honesty, integrity, and respect for people. Our Business Principles are grounded in these values and promote trust, openness, teamwork, professionalism, and pride in our work and conduct.",
+        "The core of everything we do is powered by our vision to be an esteemed organization, driven by the right product and client-centric approach and to be in a commanding position in the local oil industry while spreading our wings in the global arena. It inspires our efforts to grow our businesses,customers and partners",
     },
     {
       src: "/about/quality.jpg",
-      title: "Quality Assurance",
+      title: "Our Story",
       content:
-        "At albaderdiesel, quality assurance is a cornerstone of our operations. We are committed to maintaining the highest standards of quality in every aspect of our business, ensuring that our services and products consistently meet and exceed the expectations of our clients and stakeholders. Our robust quality assurance framework is designed to promote excellence, reliability, and continuous improvement.",
+        "Founded in 2014, Al Bader Diesel Trading LLC has been a trusted name in fuel distribution across the UAE. Serving all Emirates, we supply high-quality petroleum products to large industries, Government sector, civil construction projects, and transportation companies, ensuring seamless operations for businesses that drive the nation’s progress. With a dedicated fleet of delivery vehicles, we guarantee efficient, timely, and cost-effective fuel supply to meet our clients' growing demands. Our commitment to quality, reliability, and competitive pricing makes us the preferred partner for industries that depend on uninterrupted energy solutions.At Al Bader Diesel Trading LLC, we don’t just deliver our products, we power businesses, drive efficiency, and success.",
     },
   ];
 
