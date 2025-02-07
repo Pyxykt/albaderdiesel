@@ -8,7 +8,8 @@ const page = () => {
       <div className="container grid gap-8">
         <h1>
           Embark on a Rewarding <br />
-          Career Journey with <span className="text-primary">ARAPCO</span>
+          Career Journey with{" "}
+          <span className="text-primary">albaderdiesel</span>
         </h1>
         <div>
           {/* form */}

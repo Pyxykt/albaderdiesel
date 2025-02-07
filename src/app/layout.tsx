@@ -8,9 +8,8 @@ import Footer from "@/components/shared/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Arapco FZE",
-  description:
-    "global oil trading arena.",
+  title: "albaderdiesel",
+  description: "global oil trading arena.",
 };
 
 export default function RootLayout({

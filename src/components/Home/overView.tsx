@@ -7,11 +7,14 @@ const OverView = () => {
         <div className="space-y-8">
           <h1 className="text-primary-foreground">Overview</h1>
           <p className="text-primary-foreground">
-          Arapco FZE was established in 2018 by a group of seasoned industry professionals with expertise in oil trading and logistics. Initially focused on regional markets, Arapco has steadily expanded its operations to become a prominent player in the global oil trading arena.
+          Founded in 2014, Al Bader Diesel Trading LLC has been a trusted name in fuel distribution across the UAE. Serving all Emirates, we supply high-quality petroleum products to large industries, Government sector, civil construction projects, and transportation companies, ensuring seamless operations for businesses that drive the nation’s progress.
           </p>
 
           <p className="text-primary-foreground">
-          Arapco fze is committed to delivering superior value to its clients through efficient and transparent oil trading practices. Integrity, reliability, and sustainability are at the core of its operations, ensuring long-term partnerships and mutual success.
+          With a dedicated fleet of delivery vehicles, we guarantee efficient, timely, and cost-effective fuel supply to meet our clients' growing demands. Our commitment to quality, reliability, and competitive pricing makes us the preferred partner for industries that depend on uninterrupted energy solutions.
+          </p>
+          <p className="text-primary-foreground">
+          At Al Bader Diesel Trading LLC, we don’t just deliver our products, we power businesses, drive efficiency, and success.
           </p>
         </div>
 

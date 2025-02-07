@@ -19,7 +19,7 @@ const page = () => {
       src: "/about/quality.jpg",
       title: "Quality Assurance",
       content:
-        "At Arapco, quality assurance is a cornerstone of our operations. We are committed to maintaining the highest standards of quality in every aspect of our business, ensuring that our services and products consistently meet and exceed the expectations of our clients and stakeholders. Our robust quality assurance framework is designed to promote excellence, reliability, and continuous improvement.",
+        "At albaderdiesel, quality assurance is a cornerstone of our operations. We are committed to maintaining the highest standards of quality in every aspect of our business, ensuring that our services and products consistently meet and exceed the expectations of our clients and stakeholders. Our robust quality assurance framework is designed to promote excellence, reliability, and continuous improvement.",
     },
   ];
 
