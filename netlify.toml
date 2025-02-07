@@ -1,3 +1,4 @@
-[plugins]
+[[plugins]]
   package = "@netlify/plugin-nextjs"
   enabled = false
+  
