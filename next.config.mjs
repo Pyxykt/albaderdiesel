@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    experimental: {
+      netlifyServerActions: true,  // Enables Netlify's experimental server actions for forms
+    },
+  };
+  
+  export default nextConfig;
+  
