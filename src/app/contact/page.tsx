@@ -1,7 +1,6 @@
 import React from "react";
 import { Mail, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
-import Form from "../../components/shared/Form";
 
 const ContactHome = () => {
   const contactInfo = [
@@ -62,10 +61,6 @@ const ContactHome = () => {
               </div>
             ))}
           </div>
-        </div>
-
-        <div>
-          <Form />
         </div>
       </div>
     </>

@@ -12,7 +12,7 @@ const page = () => {
         </h1>
         <div>
           {/* form */}
-          <form className="grid gap-4">
+          {/* <form className="grid gap-4">
             <Input type="email" placeholder="Email" />
 
             <Input type="text" placeholder="Full Name" />
@@ -22,7 +22,7 @@ const page = () => {
             <Textarea placeholder="Message" />
 
             <Button>Submit</Button>
-          </form>
+          </form> */}
         </div>
       </div>
     </div>
