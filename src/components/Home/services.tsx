@@ -3,7 +3,7 @@ import Image from "next/image";
 const Services = () => {
   const data = [
     {
-      src: "/whatwedo/gas-oil.jpg",
+      src: "/whatwedo/gas-oil-1.jpeg",
       title: "Gasoil (10 PPM, MGO, 5000 PPM)",
       content:
         "Premium-grade diesel fuel suitable for industrial, marine, and automotive applications. We offer multiple specifications to meet various operational needs.",
@@ -15,7 +15,7 @@ const Services = () => {
         "A high-performance fuel that ensures optimal engine efficiency and reduced emissions for transportation and industrial use.",
     },
     {
-      src: "/whatwedo/storage-tank.jpeg",
+      src: "/whatwedo/storage-tank-1.jpeg",
       title: "Bunker Fuel",
       content:
         "A reliable and efficient marine fuel for ships, offshore vessels, and bunkering operations, ensuring compliance with IMO regulations.",
