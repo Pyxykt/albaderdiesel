@@ -15,13 +15,13 @@ export function HeroCarousel() {
   );
   const data = [
     {
-      src: "/carousel/1.jpg",
+      src: "/carousel/1.jpeg",
       alt: "Image 1",
       title: "We are AL Bader Diesel Trading LLC",
       subtitle: "Adding Exploration and boosting production",
     },
     {
-      src: "/carousel/2.jpg",
+      src: "/carousel/2.jpeg",
       alt: "Technology",
       subtitle: "Differting our performance",
       title: "Technology",

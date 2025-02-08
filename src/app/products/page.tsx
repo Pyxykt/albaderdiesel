@@ -7,7 +7,7 @@ const page = () => {
       <div
         className="bg-cover bg-center h-[400px] text-primary-foreground text-center flex items-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/carousel/1.jpg)`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/carousel/1.jpeg)`,
         }}
       >
         <div className="flex flex-col gap-8 container">

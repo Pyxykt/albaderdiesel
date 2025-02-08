@@ -26,7 +26,7 @@ const Products = () => {
           {product.map((info, index) => (
             <div
               key={index}
-              className="space-y-4 rounded-xl border shadow-lg hover:scale-105 transition ease-in-out delay-150 duration-300 bg-[#3fa7b2] py-10"
+              className="space-y-4 rounded-xl border shadow-lg hover:scale-105 transition ease-in-out delay-150 duration-300 bg-primary py-10"
             >
               <Image
                 src={info.src}

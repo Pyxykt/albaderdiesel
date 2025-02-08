@@ -7,7 +7,7 @@ export function Hero() {
       <div
         className="flex flex-col justify-center rounded-none border-0 bg-cover bg-center h-[800px] text-primary-foreground text-left p-10"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/carousel/1.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/carousel/1.jpeg')`,
         }}
       >
         <h1 className="mb-4">Services</h1>
