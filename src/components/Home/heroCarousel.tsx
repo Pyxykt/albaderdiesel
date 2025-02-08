@@ -27,7 +27,7 @@ export function HeroCarousel() {
       title: "Technology",
     },
     {
-      src: "/carousel/3.jpg",
+      src: "/carousel/3.jpeg",
       alt: "Image 3",
       title: "Exploration & production",
       subtitle: "Were meeting the worlds growing demand for energy",
