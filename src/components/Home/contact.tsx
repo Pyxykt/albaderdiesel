@@ -1,27 +1,8 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { contactInfo } from "@/constants";
+import { Mail, MapPin, MessageCircleMore, Phone } from "lucide-react";
 import Link from "next/link";
 
 const Contact = () => {
-  const contactInfo = [
-    {
-      icon: <MapPin />,
-      title: "Address",
-      content: "Al Jiddah Street Al Jurf Industrial Area-2, Ajman",
-      href: "https://maps.app.goo.gl/CsAB7o2X5F6ayuGz8",
-    },
-    {
-      icon: <Mail />,
-      title: "Email",
-      content: "albaderdiesel@outlook.com",
-      href: "mailto:albaderdiesel@outlook.com",
-    },
-    {
-      icon: <Phone />,
-      title: "Phone",
-      content: "+971 065460500",
-      href: "tel:+971065460500",
-    },
-  ];
   return (
     <section className="bg-secondary">
       <div className="container space-y-8 flex flex-wrap gap-8">
@@ -36,19 +17,20 @@ const Contact = () => {
         <div>
           <h1 className="text-center">Contact</h1>
           <div>
-            {contactInfo.map((info, index) => (
-              <div key={index}>
-                <div className="p-4">
+            {contactInfo.map((info, index) => {
+              const Icon = info.icon;
+              return (
+                <div key={index} className="p-4">
                   <h2 className="font-bold flex gap-2 mb-1">
-                    {info.icon}
+                    <Icon />
                     {info.title}
                   </h2>
                   <p>
                     <Link href={info.href}>{info.content}</Link>
                   </p>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>

@@ -1,28 +1,8 @@
 import React from "react";
-import { Mail, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
+import { contactInfo } from "@/constants";
 
 const ContactHome = () => {
-  const contactInfo = [
-    {
-      icon: <MapPin />,
-      title: "Address",
-      content: "Al Jiddah Street Al Jurf Industrial Area-2, Ajman",
-      href: "https://maps.app.goo.gl/CsAB7o2X5F6ayuGz8",
-    },
-    {
-      icon: <Mail />,
-      title: "Email",
-      content: "albaderdiesel@outlook.com",
-      href: "mailto:albaderdiesel@outlook.com",
-    },
-    {
-      icon: <Phone />,
-      title: "Phone",
-      content: "+971 065460500",
-      href: "tel:+971065460500",
-    },
-  ];
   return (
     <>
       <div
@@ -47,19 +27,20 @@ const ContactHome = () => {
         <div>
           <h1>Contacts</h1>
           <div>
-            {contactInfo.map((info, index) => (
-              <div key={index}>
-                <div className="p-4">
+            {contactInfo.map((info, index) => {
+              const Icon = info.icon;
+              return (
+                <div key={index} className="p-4">
                   <h2 className="font-bold flex gap-2 mb-1">
-                    {info.icon}
+                    <Icon />
                     {info.title}
                   </h2>
                   <p>
                     <Link href={info.href}>{info.content}</Link>
                   </p>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>
