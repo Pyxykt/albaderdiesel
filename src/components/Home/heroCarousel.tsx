@@ -17,7 +17,7 @@ export function HeroCarousel() {
     {
       src: "/carousel/1.jpg",
       alt: "Image 1",
-      title: "Gas Oil",
+      title: "We are AL Bader Diesel Trading LLC",
       subtitle: "Adding Exploration and boosting production",
     },
     {
@@ -53,6 +53,7 @@ export function HeroCarousel() {
               {/* add animation they are coming from right */}
               <CardContent className="h-full flex flex-col items-center justify-center gap-8 animate-translate-x">
                 <h1>{item.title}</h1>
+                <div className="border w-[100px] h-[2px] bg-cyan-800 m-0" />
                 <h2 className="text-2xl lg:text-4xl font-semibold">
                   {item.subtitle}
                 </h2>
