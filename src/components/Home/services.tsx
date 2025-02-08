@@ -4,27 +4,27 @@ const Services = () => {
   const data = [
     {
       src: "/whatwedo/gas-oil.jpg",
-      title: "Gasoil (10 PPM, MGO,5000 PPM)",
+      title: "Gasoil (10 PPM, MGO, 5000 PPM)",
       content:
-        "Premium-grade diesel fuel suitable for industrial, marine, and automotive applications. We offer multiple specifications to meet different operational needs.",
+        "Premium-grade diesel fuel suitable for industrial, marine, and automotive applications. We offer multiple specifications to meet various operational needs.",
     },
     {
       src: "/whatwedo/export.jpg",
-      title: "Export",
+      title: "Gasoline",
       content:
-        "albaderdiesel supply gas oil on demand including meeting domestic demand, supplying foreign markets, and participating in international trade.",
+        "A high-performance fuel that ensures optimal engine efficiency and reduced emissions for transportation and industrial use.",
     },
     {
       src: "/whatwedo/storage-tank.jpeg",
-      title: "Fuel Storage Rental",
+      title: "Bunker Fuel",
       content:
-        "At albaderdiesel, we provide a cost-effective alternative to permanent storage facilities. Storage tank rental services provide businesses with access to temporary or long-term storage solutions.",
+        "A reliable and efficient marine fuel for ships, offshore vessels, and bunkering operations, ensuring compliance with IMO regulations.",
     },
     {
       src: "/whatwedo/marine-oil.jpg",
-      title: "MARINE GAS OIL",
+      title: "Kerosene",
       content:
-        "Marine oil, also known as marine fuel oil or bunker fuel, is a type of fuel used to power ships and vessels.Marine oil is specifically formulated to meet the unique requirements of marine diesel engines and albaderdiesel is one of the best provider with most significant operating costs for maritime transport.",
+        "A versatile, clean-burning fuel ideal for aviation, heating, and industrial applications.",
     },
   ];
 
@@ -36,7 +36,7 @@ const Services = () => {
           {data.map((info, index) => (
             <div
               key={index}
-              className="space-y-4 rounded-xl border shadow-lg hover:scale-105 transition ease-in-out delay-150 duration-300 flex"
+              className="space-y-4 rounded-xl border shadow-lg hover:scale-105 transition ease-in-out delay-150 duration-300 flex w-full"
             >
               <Image
                 src={info.src}
